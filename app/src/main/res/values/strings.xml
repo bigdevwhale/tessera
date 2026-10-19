@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tessera</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="next">Next</string>
+    <string name="stop">Stop</string>
+    <string name="settings">Settings</string>
+    <string name="try_again">Try again</string>
+
+    <!-- Rhythms, formats, ages -->
+    <string name="cad_daily">Every day</string>
+    <string name="cad_weekly">Every week</string>
+    <string name="cad_monthly">Every month</string>
+    <string name="cad_yearly">Every year</string>
+    <string name="fmt_video">Film</string>
+    <string name="fmt_voice">Voice</string>
+    <string name="fmt_text">Words</string>
+    <string name="band_little">Little one</string>
+    <string name="band_little_sub">3–6: everything filmed, nothing to read or type</string>
+    <string name="band_kid">Child</string>
+    <string name="band_kid_sub">7–12: friends, fears, what to be</string>
+    <string name="band_teen">Teenager</string>
+    <string name="band_teen_sub">13–17: what changes, what you believe</string>
+    <string name="band_adult">Grown-up</string>
+    <string name="band_adult_sub">What matters now, what this year taught</string>
+    <string name="band_elder">Elder</string>
+    <string name="band_elder_sub">Their stories and songs, while there is time to ask</string>
+
+    <plurals name="age">
+        <item quantity="one">%d year old</item>
+        <item quantity="other">%d years old</item>
+    </plurals>
+    <plurals name="answers">
+        <item quantity="one">%d answer</item>
+        <item quantity="other">%d answers</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="stones">
+        <item quantity="one">%d stone</item>
+        <item quantity="other">%d stones</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <plurals name="questions">
+        <item quantity="one">%d question</item>
+        <item quantity="other">%d questions</item>
+    </plurals>
+    <plurals name="done_laid">
+        <item quantity="one">%d stone laid</item>
+        <item quantity="other">%d stones laid</item>
+    </plurals>
+    <plurals name="delete_question_text">
+        <item quantity="one">Its %d answer goes with it, for good.</item>
+        <item quantity="other">Its %d answers go with it, for good.</item>
+    </plurals>
+
+    <!-- Welcome -->
+    <string name="welcome_title">The same questions, year after year</string>
+    <string name="welcome_text">Ask your child, yourself or your grandmother the same questions every day, week, month or birthday. Every answer is laid as a stone of coloured glass, and the years become a mosaic.</string>
+    <string name="welcome_1">Answer on film, by voice or in a few words. Each question keeps its own rhythm.</string>
+    <string name="welcome_2">Then look through the years: the chorus plays one question\'s answers back to back, and you watch a face and a voice grow up.</string>
+    <string name="welcome_3">Everything stays on this phone. Back it up to a file whenever you like.</string>
+    <string name="welcome_go">Begin</string>
+
+    <!-- Home -->
+    <string name="home_people">Panels</string>
+    <string name="home_empty">Add the first person: a child, yourself, a grandparent. They get a starting set of questions for their age.</string>
+    <string name="add_person">Add a person</string>
+    <string name="this_day">This day · %1$s</string>
+    <string name="start_today">Begin · %1$s</string>
+    <string name="all_laid">Everything for today is laid.</string>
+    <string name="interview_waiting">The year\'s interview is waiting</string>
+
+    <!-- Person -->
+    <string name="questions">Questions</string>
+    <string name="year_line">%1$s over %2$s</string>
+    <string name="interview_start">Year\'s interview · %1$d</string>
+    <string name="through_years">Through the years</string>
+    <string name="archived">Put away</string>
+    <string name="edit_person">Edit</string>
+    <string name="add_person_go">Add, with starting questions</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Mila, Grandma Vera, me</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_sub">The year\'s interview falls on it</string>
+    <string name="birthday_none">Not set: the year starts on 1 January</string>
+    <string name="birthday_clear">Clear the birthday</string>
+    <string name="band">Questions for</string>
+    <string name="band_note">Changing this doesn\'t change the questions already asked; add new ones from the library.</string>
+    <string name="glass">Glass</string>
+    <string name="delete_person">Remove this person</string>
+    <string name="delete_person_title">Remove %1$s?</string>
+    <string name="delete_person_text">Every question and answer, films and voices included, is deleted from this phone. This can\'t be undone.</string>
+
+    <!-- Questions -->
+    <string name="questions_of">%1$s · questions</string>
+    <string name="turns_note">%1$d of %2$d daily questions are asked each day; they take turns.</string>
+    <string name="add_question">Add a question</string>
+    <string name="how_often">How often</string>
+    <string name="usually_answer">Usually answered as</string>
+    <string name="archive">Put away</string>
+    <string name="unarchive">Ask again</string>
+    <string name="archive_note">Put away: no longer asked, but its answers stay in the panel.</string>
+    <string name="delete_question_title">Delete this question?</string>
+    <string name="delete_question_empty">It has no answers yet.</string>
+    <string name="from_library">Library</string>
+    <string name="own_question">Your own</string>
+    <string name="own_question_hint">What would you like to ask, again and again?</string>
+
+    <!-- Sitting -->
+    <string name="question_n">Question %1$d of %2$d</string>
+    <string name="film_answer">Film the answer</string>
+    <string name="record_voice">Record the answer</string>
+    <string name="listening">Listening…</string>
+    <string name="answer_hint">In their own words</string>
+    <string name="lay_stone">Lay the stone</string>
+    <string name="skip">Not today</string>
+    <string name="echo_year">A year ago</string>
+    <string name="echo_last">Last time</string>
+    <string name="echo_now">And now</string>
+    <string name="done_none">Nothing laid today</string>
+    <string name="done_text">Come back tomorrow: the next stones are waiting.</string>
+    <string name="done_interview">A new year in the mosaic. Next birthday, the same questions.</string>
+    <string name="to_wall">To the panel</string>
+    <string name="interview_eyebrow">The year\'s interview</string>
+    <string name="interview_title">%1$s, one year on</string>
+    <string name="interview_text">%1$s, the same as every year. Find a quiet spot and good light. Last year\'s frame shows faintly in the camera so you can sit the same way.</string>
+    <string name="interview_go">Start the interview</string>
+
+    <!-- Camera -->
+    <string name="camera_needed">The camera and microphone are needed to film the answer. Nothing is sent anywhere.</string>
+    <string name="camera_failed">The camera couldn\'t record. Try again.</string>
+    <string name="flip">Switch camera</string>
+    <string name="retake">Retake</string>
+    <string name="keep_take">Keep it</string>
+    <string name="up_to">up to %1$s</string>
+
+    <!-- Answers -->
+    <string name="day_empty">Nothing was laid on this day.</string>
+    <string name="gild">Gild</string>
+    <string name="gild_hint">Gilded stones are the ones you want to keep above all: the chorus picks them first.</string>
+    <string name="gilded_note">Gilded</string>
+    <string name="add_note">Add a note</string>
+    <string name="note_hint">What was said, or what was going on</string>
+    <string name="delete_answer_title">Delete this answer?</string>
+    <string name="delete_answer_text">The stone and its film or voice are deleted for good.</string>
+
+    <!-- Through the years -->
+    <string name="chorus_go">Chorus of years · %1$d</string>
+    <string name="chorus_sub">One answer from each year, back to back. Gilded ones first.</string>
+    <string name="thread_empty">No answers yet.</string>
+    <string name="heartwood">Unchanged since %1$d</string>
+    <string name="words_of_year">Words of the year</string>
+    <string name="changed">new</string>
+    <string name="unchanged">as before</string>
+
+    <!-- Settings -->
+    <string name="set_rhythm">Rhythm</string>
+    <string name="set_per_day">Daily questions a day</string>
+    <string name="set_per_day_sub">Per person. When there are more, they take turns, the longest-waiting first.</string>
+    <string name="set_reminder">Reminder</string>
+    <string name="set_remind">Evening reminder</string>
+    <string name="set_remind_sub">Once a day, only when something is waiting</string>
+    <string name="set_remind_at">At</string>
+    <string name="set_camera">Camera</string>
+    <string name="set_ghost">Last time\'s frame</string>
+    <string name="set_ghost_sub">Faintly over the camera, to stand the same way</string>
+    <string name="set_countdown">Countdown</string>
+    <string name="set_countdown_sub">3, 2, 1 before filming starts</string>
+    <string name="set_echo">Show the earlier answer</string>
+    <string name="set_echo_sub">Right after answering: a year ago you said…</string>
+    <string name="set_language">Language</string>
+    <string name="set_lang_system">As the phone</string>
+    <string name="set_data">Backup</string>
+    <string name="backup_export">Save everything to a ZIP</string>
+    <string name="backup_export_sub">Answers, films and voices</string>
+    <string name="backup_busy">Packing…</string>
+    <string name="backup_import">Restore from a ZIP</string>
+    <string name="backup_import_sub">Replaces what is on this phone</string>
+    <string name="backup_import_title">Restore this backup?</string>
+    <string name="backup_import_text">Everyone and every answer on this phone is replaced by what is in the file.</string>
+    <string name="backup_import_go">Restore</string>
+    <string name="backup_done">Saved</string>
+    <string name="backup_failed">Couldn\'t save the backup</string>
+    <string name="backup_restored">Restored</string>
+    <string name="backup_bad">That isn\'t a Tessera backup</string>
+    <string name="set_about">About</string>
+    <string name="set_privacy">Tessera has no account, no cloud and no analytics. Films, voices and words stay in the app\'s own folder on this phone until you save a backup yourself.</string>
+
+    <!-- Notifications -->
+    <string name="channel">Evening reminder</string>
+    <string name="channel_desc">One reminder a day when a question is waiting</string>
+    <string name="notif_title">A stone is waiting</string>
+    <string name="notif_one">%1$s has a question waiting.</string>
+    <string name="notif_many">Questions are waiting for %1$s.</string>
+    <string name="notif_birthday">%1$s\'s birthday: time for the year\'s interview.</string>
+</resources>

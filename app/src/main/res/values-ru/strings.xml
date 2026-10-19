@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Смальта</string>
+
+    <!-- Common -->
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="remove">Убрать</string>
+    <string name="next">Дальше</string>
+    <string name="stop">Стоп</string>
+    <string name="settings">Настройки</string>
+    <string name="try_again">Попробовать ещё раз</string>
+
+    <!-- Rhythms, formats, ages -->
+    <string name="cad_daily">Каждый день</string>
+    <string name="cad_weekly">Каждую неделю</string>
+    <string name="cad_monthly">Каждый месяц</string>
+    <string name="cad_yearly">Каждый год</string>
+    <string name="fmt_video">Видео</string>
+    <string name="fmt_voice">Голос</string>
+    <string name="fmt_text">Словами</string>
+    <string name="band_little">Малыш</string>
+    <string name="band_little_sub">3–6: всё на видео, ничего читать и печатать</string>
+    <string name="band_kid">Ребёнок</string>
+    <string name="band_kid_sub">7–12: друзья, страхи, кем стать</string>
+    <string name="band_teen">Подросток</string>
+    <string name="band_teen_sub">13–17: что меняется, во что веришь</string>
+    <string name="band_adult">Взрослый</string>
+    <string name="band_adult_sub">Что важно сейчас, чему научил год</string>
+    <string name="band_elder">Старшие</string>
+    <string name="band_elder_sub">Их истории и песни, пока есть время спросить</string>
+
+    <plurals name="age">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+    <plurals name="answers">
+        <item quantity="one">%d ответ</item>
+        <item quantity="few">%d ответа</item>
+        <item quantity="many">%d ответов</item>
+        <item quantity="other">%d ответа</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="stones">
+        <item quantity="one">%d смальта</item>
+        <item quantity="few">%d смальты</item>
+        <item quantity="many">%d смальт</item>
+        <item quantity="other">%d смальты</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+    <plurals name="questions">
+        <item quantity="one">%d вопрос</item>
+        <item quantity="few">%d вопроса</item>
+        <item quantity="many">%d вопросов</item>
+        <item quantity="other">%d вопроса</item>
+    </plurals>
+    <plurals name="done_laid">
+        <item quantity="one">Выложена %d смальта</item>
+        <item quantity="few">Выложены %d смальты</item>
+        <item quantity="many">Выложено %d смальт</item>
+        <item quantity="other">Выложено %d смальты</item>
+    </plurals>
+    <plurals name="delete_question_text">
+        <item quantity="one">Вместе с ним навсегда исчезнет %d ответ.</item>
+        <item quantity="few">Вместе с ним навсегда исчезнут %d ответа.</item>
+        <item quantity="many">Вместе с ним навсегда исчезнут %d ответов.</item>
+        <item quantity="other">Вместе с ним навсегда исчезнут %d ответа.</item>
+    </plurals>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Одни и те же вопросы, год за годом</string>
+    <string name="welcome_text">Задавайте ребёнку, себе или бабушке одни и те же вопросы каждый день, неделю, месяц или в день рождения. Каждый ответ ложится цветной смальтой, и годы складываются в мозаику.</string>
+    <string name="welcome_1">Отвечайте на видео, голосом или парой слов. У каждого вопроса свой ритм.</string>
+    <string name="welcome_2">А потом смотрите сквозь годы: хор лет проигрывает ответы на один вопрос подряд — и видно, как взрослеют лицо и голос.</string>
+    <string name="welcome_3">Всё хранится только на этом телефоне. Резервную копию можно сохранить в файл когда угодно.</string>
+    <string name="welcome_go">Начать</string>
+
+    <!-- Home -->
+    <string name="home_people">Панно</string>
+    <string name="home_empty">Добавьте первого человека: ребёнка, себя, бабушку или дедушку. Он получит стартовый набор вопросов по возрасту.</string>
+    <string name="add_person">Добавить человека</string>
+    <string name="this_day">Этот день · %1$s</string>
+    <string name="start_today">Начать · %1$s</string>
+    <string name="all_laid">На сегодня всё выложено.</string>
+    <string name="interview_waiting">Годовое интервью ждёт</string>
+
+    <!-- Person -->
+    <string name="questions">Вопросы</string>
+    <string name="year_line">%1$s за %2$s</string>
+    <string name="interview_start">Годовое интервью · %1$d</string>
+    <string name="through_years">Сквозь годы</string>
+    <string name="archived">Убран</string>
+    <string name="edit_person">Изменить</string>
+    <string name="add_person_go">Добавить со стартовыми вопросами</string>
+    <string name="name">Имя</string>
+    <string name="name_hint">Мила, бабушка Вера, я</string>
+    <string name="birthday">День рождения</string>
+    <string name="birthday_sub">В этот день — годовое интервью</string>
+    <string name="birthday_none">Не задан: год начинается 1 января</string>
+    <string name="birthday_clear">Убрать день рождения</string>
+    <string name="band">Вопросы для</string>
+    <string name="band_note">Это не меняет уже заданные вопросы; новые можно добавить из библиотеки.</string>
+    <string name="glass">Стекло</string>
+    <string name="delete_person">Удалить человека</string>
+    <string name="delete_person_title">Удалить: %1$s?</string>
+    <string name="delete_person_text">Все вопросы и ответы, включая видео и голос, будут удалены с телефона. Это нельзя отменить.</string>
+
+    <!-- Questions -->
+    <string name="questions_of">%1$s · вопросы</string>
+    <string name="turns_note">Каждый день задаётся %1$d из %2$d ежедневных вопросов — по очереди.</string>
+    <string name="add_question">Добавить вопрос</string>
+    <string name="how_often">Как часто</string>
+    <string name="usually_answer">Обычно отвечать</string>
+    <string name="archive">Убрать</string>
+    <string name="unarchive">Снова задавать</string>
+    <string name="archive_note">Убранный вопрос больше не задаётся, но его ответы остаются в панно.</string>
+    <string name="delete_question_title">Удалить вопрос?</string>
+    <string name="delete_question_empty">Ответов на него ещё нет.</string>
+    <string name="from_library">Библиотека</string>
+    <string name="own_question">Свой</string>
+    <string name="own_question_hint">О чём хочется спрашивать снова и снова?</string>
+
+    <!-- Sitting -->
+    <string name="question_n">Вопрос %1$d из %2$d</string>
+    <string name="film_answer">Снять ответ</string>
+    <string name="record_voice">Записать ответ</string>
+    <string name="listening">Слушаю…</string>
+    <string name="answer_hint">Своими словами</string>
+    <string name="lay_stone">Положить смальту</string>
+    <string name="skip">Не сегодня</string>
+    <string name="echo_year">Год назад</string>
+    <string name="echo_last">В прошлый раз</string>
+    <string name="echo_now">А сейчас</string>
+    <string name="done_none">Сегодня ничего не выложено</string>
+    <string name="done_text">Завтра будут новые смальты.</string>
+    <string name="done_interview">В мозаике новый год. В следующий день рождения — те же вопросы.</string>
+    <string name="to_wall">К панно</string>
+    <string name="interview_eyebrow">Годовое интервью</string>
+    <string name="interview_title">%1$s, год спустя</string>
+    <string name="interview_text">%1$s — те же, что и каждый год. Найдите тихое место и хороший свет. В камере слегка виден прошлогодний кадр, чтобы сесть так же.</string>
+    <string name="interview_go">Начать интервью</string>
+
+    <!-- Camera -->
+    <string name="camera_needed">Чтобы снять ответ, нужны камера и микрофон. Ничего никуда не отправляется.</string>
+    <string name="camera_failed">Камера не смогла записать. Попробуйте ещё раз.</string>
+    <string name="flip">Сменить камеру</string>
+    <string name="retake">Переснять</string>
+    <string name="keep_take">Оставить</string>
+    <string name="up_to">до %1$s</string>
+
+    <!-- Answers -->
+    <string name="day_empty">В этот день ничего не выложено.</string>
+    <string name="gild">Позолотить</string>
+    <string name="gild_hint">Золотые смальты — то, что хочется сохранить прежде всего: хор лет выбирает их первыми.</string>
+    <string name="gilded_note">Позолочено</string>
+    <string name="add_note">Добавить заметку</string>
+    <string name="note_hint">Что было сказано или что тогда происходило</string>
+    <string name="delete_answer_title">Удалить ответ?</string>
+    <string name="delete_answer_text">Смальта и её видео или голос удалятся навсегда.</string>
+
+    <!-- Through the years -->
+    <string name="chorus_go">Хор лет · %1$d</string>
+    <string name="chorus_sub">По одному ответу за каждый год, подряд. Сначала золотые.</string>
+    <string name="thread_empty">Ответов пока нет.</string>
+    <string name="heartwood">Неизменно с %1$d</string>
+    <string name="words_of_year">Слова года</string>
+    <string name="changed">новое</string>
+    <string name="unchanged">как прежде</string>
+
+    <!-- Settings -->
+    <string name="set_rhythm">Ритм</string>
+    <string name="set_per_day">Ежедневных вопросов в день</string>
+    <string name="set_per_day_sub">На человека. Если их больше, они идут по очереди: сначала те, что ждут дольше.</string>
+    <string name="set_reminder">Напоминание</string>
+    <string name="set_remind">Вечернее напоминание</string>
+    <string name="set_remind_sub">Раз в день и только если что-то ждёт</string>
+    <string name="set_remind_at">Время</string>
+    <string name="set_camera">Камера</string>
+    <string name="set_ghost">Кадр прошлого раза</string>
+    <string name="set_ghost_sub">Полупрозрачно поверх камеры, чтобы встать так же</string>
+    <string name="set_countdown">Обратный отсчёт</string>
+    <string name="set_countdown_sub">3, 2, 1 перед записью</string>
+    <string name="set_echo">Показывать прошлый ответ</string>
+    <string name="set_echo_sub">Сразу после ответа: что было сказано год назад</string>
+    <string name="set_language">Язык</string>
+    <string name="set_lang_system">Как в телефоне</string>
+    <string name="set_data">Резервная копия</string>
+    <string name="backup_export">Сохранить всё в ZIP</string>
+    <string name="backup_export_sub">Ответы, видео и голос</string>
+    <string name="backup_busy">Упаковываю…</string>
+    <string name="backup_import">Восстановить из ZIP</string>
+    <string name="backup_import_sub">Заменит то, что на телефоне</string>
+    <string name="backup_import_title">Восстановить копию?</string>
+    <string name="backup_import_text">Все люди и ответы на этом телефоне будут заменены содержимым файла.</string>
+    <string name="backup_import_go">Восстановить</string>
+    <string name="backup_done">Сохранено</string>
+    <string name="backup_failed">Не удалось сохранить копию</string>
+    <string name="backup_restored">Восстановлено</string>
+    <string name="backup_bad">Это не резервная копия Смальты</string>
+    <string name="set_about">О приложении</string>
+    <string name="set_privacy">В Смальте нет аккаунта, облака и аналитики. Видео, голос и слова хранятся в папке приложения на этом телефоне, пока вы сами не сохраните копию.</string>
+
+    <!-- Notifications -->
+    <string name="channel">Вечернее напоминание</string>
+    <string name="channel_desc">Одно напоминание в день, когда ждёт вопрос</string>
+    <string name="notif_title">Смальта ждёт</string>
+    <string name="notif_one">%1$s: вопрос ждёт ответа.</string>
+    <string name="notif_many">Ждут вопросы: %1$s.</string>
+    <string name="notif_birthday">%1$s — день рождения! Время годового интервью.</string>
+</resources>
