@@ -46,15 +46,14 @@ abstract class ScreensBase {
         Home(dao.people(), dao.questions(), dao.answers(), c.settings.now(), app.ru)
     }
 
-    private fun shot(name: String, h: Home, content: @Composable (Home, Go) -> Unit) {
+    private fun shot(name: String, h: Home, settle: Long = 3_000, content: @Composable (Home, Go) -> Unit) {
         rule.mainClock.autoAdvance = false
         rule.setContent {
             val nav = rememberNavController()
             TesseraTheme { content(h, Go(nav)) }
         }
-        rule.mainClock.advanceTimeBy(2_000)
-        rule.waitForIdle()
-        rule.mainClock.advanceTimeBy(1_000)
+        // The chorus moves on to the next year by itself, so it is caught before it does.
+        rule.mainClock.advanceTimeBy(settle)
         rule.runOnUiThread {
             val view = rule.activity.window.decorView
             val image = android.graphics.Bitmap.createBitmap(view.width, view.height, android.graphics.Bitmap.Config.ARGB_8888)
@@ -71,7 +70,7 @@ abstract class ScreensBase {
     @Test fun person() = home().let { shot("2-panel", it) { h, go -> PersonScreen(h.mila.id, h, go) } }
     @Test fun sitting() = home().let { shot("3-sitting", it) { h, go -> SittingScreen(h.mila.id, false, h, go) } }
     @Test fun thread() = home().let { shot("4-through", it) { h, go -> ThreadScreen(h.yearly("y_be").id, h, go) } }
-    @Test fun chorus() = home().let { shot("5-chorus", it) { h, go -> ChorusScreen(h.yearly("y_food").id, h, go) } }
+    @Test fun chorus() = home().let { shot("5-chorus", it, settle = 800) { h, go -> ChorusScreen(h.yearly("y_food").id, h, go) } }
     @Test fun daily() = home().let { h ->
         val q = h.questions.first { it.personId == h.mila.id && it.cadenceOf == Cadence.DAILY }
         shot("6-daily", h) { hh, go -> ThreadScreen(q.id, hh, go) }
