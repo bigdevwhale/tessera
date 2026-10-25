@@ -46,6 +46,7 @@ import app.tessera.ui.Home
 import app.tessera.ui.Language
 import app.tessera.ui.T
 import app.tessera.ui.components.Chip
+import app.tessera.ui.components.CommunityLinks
 import app.tessera.ui.components.ConfirmDialog
 import app.tessera.ui.components.InfoRow
 import app.tessera.ui.components.SectionTitle
@@ -129,6 +130,8 @@ fun SettingsScreen(home: Home, go: Go) {
                     import.launch(arrayOf("application/zip", "application/octet-stream", "*/*"))
                 }
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.set_about))
             Text(stringResource(R.string.set_privacy), style = UType.Sub)
